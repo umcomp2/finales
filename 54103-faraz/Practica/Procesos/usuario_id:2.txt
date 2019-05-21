@@ -1,0 +1,6 @@
+Laboratorio peres articulo2 1.00 
+Bayern articulo3 8.00 
+Bayern articulo1 100.00 
+Ecofarma articulo6 50.00 
+Bayern articulo4 50.00 
+Bayern articulo5 9.00 

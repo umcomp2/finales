@@ -1,0 +1,1 @@
+usuario_id:2 --> 1 articulo1 15;2 articulo2 20;3 articulo3 6;4 articulo4 9;5 articulo5 3;75 articulo6 9;
