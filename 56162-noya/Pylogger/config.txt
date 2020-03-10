@@ -1,0 +1,19 @@
+-Configuration file, respect order and write after '=' w/o spaces, enjoy.
+-server conf:
+ip=192.168.1.51
+port=8080
+-write file
+file=lectures.csv
+-temperature limit
+temp=35
+-number of lectures before writing the file
+n_of_l=100
+-Enable email alert?(1-enable 2-do not) /email info
+enable=1
+sender=pylogger.by.roi@gmail.com
+password=estaesunaclavemuysegura
+reciever=pylogger.by.roi@gmail.com
+-number of sensors
+n_of_sensors=3
+-sampling time (in min)
+s_t=2
