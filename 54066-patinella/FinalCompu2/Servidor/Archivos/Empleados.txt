@@ -1,0 +1,9 @@
+1/pablo/123456/ventas
+2/eduardo/123456/ventas
+3/franco/123456/ventas
+4/hernan/123456/consultas
+5/pedro/123456/consultas
+6/lucia/123456/consultas
+7/lucas/123456/reclamos
+8/mercedes/123456/reclamos
+9/distribuidora/123456/reclamos
