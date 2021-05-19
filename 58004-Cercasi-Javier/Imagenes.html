@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="data:,">
+        <title>Conversor</title>
+    
+    </head>
+    <body>
+    
+        <h1>Conversor de Imagenes:</h1>
+        <p></p>
+          <form method="POST" enctype="multipart/form-data">
+            <p>Formato de Salida:
+              <input type="radio" name="output" value="png"  required> png
+              <input type="radio" name="output" value="jpg" required> jpg
+              <input type="radio" name="output" value="jpeg" required> jpeg
+              <input type="radio" name="output" value="ppm" required> ppm
+              <input type="radio" name="output" value="BMP" required> bmp
+              <input type="radio" name="output" value="EPS" required> eps
+              <input type="radio" name="output" value="gif" required> gif
+              <input type="radio" name="output" value="TIFF" required> tiff
+            </p>
+            <input id="fileUpload" type="file" name="Archivo_Subido" required/>
+            <p>
+            <input type="submit" value="Subir Archivo" name="submit" required onclick="notify();"/> 
+            </p>
+          </form>
+    </body>
+</html>

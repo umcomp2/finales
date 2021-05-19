@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="data:,">
+        <title>Conversor</title>
+    
+    </head>
+    <body>
+    
+      <h1>Conversor de Documentos:</h1>
+      <p></p>
+        <form method="POST" enctype="multipart/form-data">
+          <p>Formato de Salida:
+            <input type="radio" name="output" value="docx" required> docx
+            <input type="radio" name="output" value="pdf" required> pdf
+          </p>
+          <input id="fileUpload" type="file" name="Archivo_Subido"/>
+          <p>
+          <input type="submit" value="Subir Archivo" name="submit" />
+          </p>
+        </form>
+  </body>
+</html>
