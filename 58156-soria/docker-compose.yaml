@@ -1,0 +1,11 @@
+version: "3"
+services:
+    PMZ:
+        image: "pmz:v2"
+        volumes:
+            - "./Logs:/home/lucas/Documents/compu\ 2/pmz/Logs"
+        environment: 
+            - IP
+            - PORT
+        ports:
+            - $PORT:$PORT

@@ -1,0 +1,54 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+        <title>PMZ - Index</title>
+        <link rel="stylesheet" href="./static/styles.css">
+    </head>
+    <body>
+      <div class="header">
+        <a href="./index.html"><img src="./static/favicon.ico"></a>
+        <div class="left">
+          <nav>
+            <p>PMZ</p>
+          </nav>
+        </div>
+        <div class="right">
+          <nav class="active">
+            <a>Index</a>
+          </nav>
+        </div>
+      </div>
+      <div class="content">
+        <div class="uploadsection section">
+          <form method="post" accept-charset="utf-8" enctype="multipart/form-data">
+            <label>Select the maze file:</label>
+            <br>
+            <input id="fileUpload" name="maze" type="file" value="" name="files[]" multiple/>
+            <br>
+            <input type="submit" value="Upload File" name="submit"/>
+          </form>
+        </div>
+        <div class="rules section">
+          <p>File format:</p>
+          <ul>
+            <li style="list-style-type: '>   ';">Text file .txt</li>
+            <li style="list-style-type: '#   ';">for walls</li>
+            <li style="list-style-type: '*   ';">Marks the start</li>
+            <li style="list-style-type: '+   ';">Marks the end</li>
+            <li style="list-style-type: '    ';">white spaces mark posible paths</li>
+            <li style="list-style-type: '>   ';">The maze MUST be inside four walls</li>
+            <li style="list-style-type: '>   ';">The maze MUST have a solution</li>
+            <li style="list-style-type: '>   ';">The maze MUST have a start</li>
+            <li style="list-style-type: '>   ';">No more characters allowed</li>
+          </ul>
+          <p>Example:</p>
+          <p>####</p>
+          <p>#*##</p>
+          <p># ##</p>
+          <p># ##</p>
+          <p># +#</p>
+          <p>####</p>
+        </div>
+      </div>
+    </body>
+</html>
