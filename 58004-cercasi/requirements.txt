@@ -5,5 +5,5 @@ docx2pdf==0.1.7
 pydub==0.25.1
 ffmpeg==1.4
 unoconv==0.9.0
-requests==2.22.0
+requests==2.31.0
 requests-unixsocket==0.2.0
